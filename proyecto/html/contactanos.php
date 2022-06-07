@@ -13,41 +13,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Nombre Sitio</a>
-				
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-				
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-						<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="index.html">Todo</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Cursos</a></li>
-                                <li><a class="dropdown-item" href="#!">Capacitaciones</a></li>
-                            </ul>
-                        </li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!"></a></li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!"></a></li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Acerca de</a></li>	
-					</ul>
-					<ul class="navbar-nav me-auto mb-3 mb-lg-0 ms-lg-7">                        					
-						<li class="nav-item">
-							<div class="input-group mb-20">							  
-								<input type="text" class="form-control" placeholder="¿Que quieres aprender?" aria-label="Example text with button addon" aria-describedby="button-addon1">
-								<button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="bi bi-search"></i> </button>
-							</div>
-						</li>						                      
-					</ul>
-                </div>
-            </div>
-        </nav>
+		<?php  include ("Components/MenuBar.php"); ?>
         <!-- Header-->
         <header class="bg-dark py-5">
             <div class="container px-4 px-lg-5 my-5">
@@ -139,9 +105,9 @@
 			</div>
 		</div>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; proyecto programacion web</p></div>
-        </footer>
+		<?php
+        include ("Components/footer.php");
+        ?>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
       
