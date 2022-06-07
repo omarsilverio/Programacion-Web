@@ -28,12 +28,13 @@
                                 <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" href="#!">Cursos</a></li>
                                 <li><a class="dropdown-item" href="#!">Capacitaciones</a></li>
+                                <li><a class="dropdown-item" href="AgregarCurso.php">Agregar Nuevo Curso</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#!">Mis Cursos</a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="contactanos.php">Contactanos</a></li>                       
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="Blog.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!"></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!"></a></li>                        
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="AcercaDe.html">Acerca de</a></li>	                        
 					</ul> 
                     <form class="d-flex">

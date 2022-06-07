@@ -56,42 +56,42 @@
 				</div>
 				
 				<div class="col-7">
-					<form>
+					<form method="POST" action="../php/enviarDudas.php">
 						<div class="container-fluid rounded-3">			
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="exampleFormControlInput1" class="form-label">Nombre(s):</label>
-								  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ejemp. Juan Jose">
+								  <input type="text" class="form-control" name="nombre" placeholder="Ejemp. Juan Jose">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="exampleFormControlInput1" class="form-label">Primer Apellido:</label>
-								  <input type="email" class="form-control" id="exampleFormControlInput5" placeholder="Ejemp. Ramirez">
+								  <input type="text" class="form-control" name="primer_apellido" placeholder="Ejemp. Ramirez">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="exampleFormControlInput1" class="form-label">Segundo Apellido:</label>
-								  <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="Ejemp. Ramirez">
+								  <input type="text" class="form-control" name="segundo_apellido" placeholder="Ejemp. Ramirez">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="exampleFormControlInput1" class="form-label">Email:</label>
-								  <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Ejemp. name@example.com">
+								  <input type="email" class="form-control" name="email" placeholder="Ejemp. name@example.com">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="exampleFormControlInput1" class="form-label">Asunto:</label>
-								  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Ejemp. Duda">
+								  <input type="text" class="form-control" name="asunto" placeholder="Ejemp. Duda">
 								</div>
 							</div>
 							<div class="row">
 								<div class="mb-3">
 								  <label for="exampleFormControlTextarea1" class="form-label">Comentarios:</label>
-								  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+								  <textarea class="form-control" name="comentario" rows="3"></textarea>
 								</div>
 							</div>
 							<div class="row">
