@@ -94,11 +94,11 @@ if(!$connection)
         //insertamos datos de registro al mysql xamp, indicando nombre de la tabla y sus atributos
        
 		$instruccion_SQL = "INSERT INTO alumno (idAlumno, nombre, apellido_paterno, apellido_materno, fehca_nacimiento,correo)
-                             VALUES ($idAlumno, $nombre, $apellido_paterno, $apellido_materno, $fehca_nacimiento,$correo')";                                                       
+                             VALUES ($idAlumno, $nombre, $apellido_paterno, $apellido_materno, $fehca_nacimiento,$correo);";                                                       
         $resultado = mysqli_query($connection,$instruccion_SQL); 		
 
-		$instruccion_SQL = "INSERT INTO sesion (usuario, alumno, contrasenia)
-                            VALUES ('$usuario, $idAlumno, $contrasenia')";
+		$instruccion_SQL = "INSERT INTO sesion (usuario,alumno,contrasenia)
+                            VALUES ($usuario,$idAlumno,$contrasenia);";
 		$resultado = mysqli_query($connection,$instruccion_SQL);
 
 
