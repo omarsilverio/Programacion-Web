@@ -49,10 +49,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                    <a href="index.php" class="nav-item nav-link">Inicio</a>
                     <a href="courses.php" class="nav-item nav-link">Cursos</a>
                     <a href="contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/blog/blog-1.php" class="nav-item nav-link">Blog</a>
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/blog/blog-1.php" class="nav-item nav-link active">Blog</a>
                     <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
