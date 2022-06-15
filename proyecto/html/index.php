@@ -50,8 +50,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Aprenda Online, Resuelva Sus Dudas</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">Learn More</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Cursos</a>
+                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">Suscribirse Ahora</a>
+                                    <a href="courses.php" class="btn btn-light py-sm-3 px-sm-5 ms-3">Nuestros Cursos</a>
                                 </div>
                             </div>
                         </div>
@@ -64,8 +64,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">Cursos Con Los Mejores Precios</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">Learn More</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Our Courses</a>
+                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">Suscribirse Ahora</a>
+                                    <a href="courses.php" class="btn btn-light py-sm-3 px-sm-5 ms-3">Nuestros Cursos</a>
                                 </div>
                             </div>
                         </div>
@@ -98,8 +98,8 @@
                                 <i class="fa fa-car text-white"></i>
                             </div>
                             <div class="ps-4">
-                                <h5>Easy Driving Learn </h5>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
+                                <h5>Suscripción Gratuia</h5>
+                                <span>¡La suscripción es totalmente gratis!</span>
                             </div>
                         </div>
                     </div>
@@ -111,8 +111,8 @@
                                 <i class="fa fa-users text-white"></i>
                             </div>
                             <div class="ps-4">
-                                <h5>National Instructor</h5>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
+                                <h5>Cursos Con Los Mejores Precios</h5>
+                                <span>cursos baratos para que aprendas mas</span>
                             </div>
                         </div>
                     </div>
@@ -124,8 +124,8 @@
                                 <i class="fa fa-file-alt text-white"></i>
                             </div>
                             <div class="ps-4">
-                                <h5>Get licence</h5>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo erat amet</span>
+                                <h5>Resuelve tus dudas</h5>
+                                <span>Resuelve Tus Dudas Por Correo, Te Contestamos Lo Mas Rápido Posible</span>
                             </div>
                         </div>
                     </div>
@@ -148,22 +148,21 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h6 class="text-primary text-uppercase mb-2">About Us</h6>
-                        <h1 class="display-6 mb-4">We Help Students To Pass Test & Get A License On The First Try</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        
+                        <h1 class="display-6 mb-4">Ayudamos a los usuarios a entender cursos de nivel básico y avanzado</h1>                        
+                        <p class="mb-4">Los cursos estan diseñados para personas que quieran aprender temas de nivel básico y temas de programación</p>
                         <div class="row g-2 mb-4 pb-2">
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Fully Licensed
+                                <i class="fa fa-check text-primary me-2"></i>Confiabilidad
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Online Tracking
+                                <i class="fa fa-check text-primary me-2"></i>Precios Justos
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Afordable Fee 
+                                <i class="fa fa-check text-primary me-2"></i>Información Clara 
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Best Trainers
+                                <i class="fa fa-check text-primary me-2"></i>Disponibilidad
                             </div>
                         </div>
                         <div class="row g-4">
