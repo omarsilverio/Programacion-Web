@@ -52,8 +52,14 @@
                     <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="courses.php" class="nav-item nav-link">Cursos</a>
                     <a href="contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
+<<<<<<< HEAD
                     <a href="blog/blog-1.php" class="nav-item nav-link">Blog</a>
                     <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
+=======
+                    <a href="blog-1.php" class="nav-item nav-link">Blog</a>
+                    <a href="about.php" class="nav-item nav-link">Acerca de</a>       
+                    <!--            
+>>>>>>> main
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu bg-light m-0">
@@ -63,7 +69,7 @@
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             <a href="404.html" class="dropdown-item">404 Page</a>
                         </div>
-                    </div>
+                    </div>-->
                     
                 </div>
                 <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>

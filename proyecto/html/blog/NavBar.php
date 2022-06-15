@@ -42,18 +42,30 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+<<<<<<< HEAD
                 <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Cursos Online</h2>
+=======
+                <h2 class="m-0"><i class="fa fa-car text-primary me-2"></i>Drivin</h2>
+>>>>>>> main
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
+<<<<<<< HEAD
                     <a href="../index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="../courses.php" class="nav-item nav-link">Cursos</a>
                     <a href="../contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
                     <a href="blog-1.php" class="nav-item nav-link">Blog</a>
                     <a href="../about.html" class="nav-item nav-link">Acerca de</a>                   
+=======
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/index.php" class="nav-item nav-link ">Inicio</a>
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/courses.php" class="nav-item nav-link">Cursos</a>
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/blog/blog-1.php" class="nav-item nav-link active">Blog</a>
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/about.php" class="nav-item nav-link">Acerca de</a>                   
+>>>>>>> main
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu bg-light m-0">
@@ -66,7 +78,11 @@
                     </div>
                     
                 </div>
+<<<<<<< HEAD
                 <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
+=======
+                <a href="ProyectoFinalWeb/Programacion-Web/proyecto/html/RegistroAlumno.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Started<i class="fa fa-arrow-right ms-3"></i></a>
+>>>>>>> main
             </div>
         </nav>
     </body>
