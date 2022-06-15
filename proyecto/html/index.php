@@ -207,7 +207,7 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                            <img class="img-fluid" src="img/curso1.jpg" alt="">
                             <div class="courses-overlay">
                                 <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
@@ -226,7 +226,7 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                            <img class="img-fluid" src="img/curso2.png" alt="">
                             <div class="courses-overlay">
                                 <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
@@ -245,7 +245,7 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                            <img class="img-fluid" src="img/curso3.jpg" alt="">
                             <div class="courses-overlay">
                                 <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
@@ -254,41 +254,35 @@
                 </div>
                 <div class="col-lg-8 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-primary text-center p-5">
-                        <h1 class="mb-4">Make Appointment</h1>
+                        <h1 class="mb-4">Pide Mas Información</h1>
                         <form>
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
-                                        <label for="gname">Your Name</label>
+                                        <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name" required>
+                                        <label for="gname">Nombre</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
-                                        <label for="gmail">Your Email</label>
+                                        <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email" required>
+                                        <label for="gmail">Email</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
-                                        <label for="cname">Courses Type</label>
+                                        <input type="text" class="form-control border-0" id="cname" placeholder="Child Name" required>
+                                        <label for="cname">Curso</label>
                                     </div>
-                                </div>
-                                <div class="col-sm-6">
+                                </div>                                
+                                <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
-                                        <label for="cage">Car Type</label>
+                                        <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px" required></textarea>
+                                        <label for="message">Mensage</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -305,9 +299,9 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-primary text-uppercase mb-2">Why Choose Us!</h6>
-                    <h1 class="display-6 mb-4">Best Driving Training Agency In Your City</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h6 class="text-primary text-uppercase mb-2">Por que elegirnos</h6>
+                    <h1 class="display-6 mb-4">Nos preocupa tu aprendizaje</h1>
+                    <p class="mb-5">Como estudiantes nos preocupa que no entiendas los temas</p>
                     <div class="row gy-5 gx-4">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex align-items-center mb-3">
@@ -349,8 +343,8 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="img/about-1.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px">
+                        <img class="position-absolute w-100 h-100" src="img/about-4.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="img/about-3.jpg" alt="" style="width: 200px; height: 200px">
                     </div>
                 </div>
             </div>
@@ -359,7 +353,7 @@
     <!-- Features End -->
 
 
-    <!-- Team Start -->
+    <!-- Team Start 
     <div class="container-xxl py-6">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -434,15 +428,15 @@
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    Team End -->
 
 
     <!-- Testimonial Start -->
     <div class="container-xxl py-6">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase mb-2">Testimonial</h6>
-                <h1 class="display-6 mb-4">What Our Clients Say!</h1>
+                <h6 class="text-primary text-uppercase mb-2">Comentarios</h6>
+                <h1 class="display-6 mb-4">¡Comentarios de nuestros usuarios!</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">

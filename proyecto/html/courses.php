@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Drivin - Driving School Website Template</title>
+    <title>Cursos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -38,7 +38,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Courses</h1>
+            <h1 class="display-4 text-white animated slideInDown mb-4">Cursos</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
@@ -60,63 +60,120 @@
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Automatic Car Lessons</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Programación Web</h5>
+                            <p>Aprende a realizar paginas web estaticas y dinamicas</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                            <img class="img-fluid" src="img/curso1.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Highway Driving Lesson</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$150.00</div>
+                            <h5 class="mb-3">Programación Orientada a Objetos</h5>
+                            <p>Aprende el paradigma orientado a objetos de una forma entendible</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                            <img class="img-fluid" src="img/curso2.png" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">International Driving</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Introducción a la Programación</h5>
+                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                            <img class="img-fluid" src="img/curso3.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Introducción a la Programación</h5>
+                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/curso3.jpg" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Introducción a la Programación</h5>
+                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/curso3.jpg" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Introducción a la Programación</h5>
+                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/curso3.jpg" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
     </div>
     <!-- Courses End -->
