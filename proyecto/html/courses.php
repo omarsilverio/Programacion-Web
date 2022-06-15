@@ -138,8 +138,8 @@
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
-                            <h5 class="mb-3">Introducción a la Programación</h5>
-                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <h5 class="mb-3">Matematicas 1</h5>
+                            <p>Aprende lo basico de las matematicas sumas, restas, multiplicaciones y mas.</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
@@ -157,8 +157,8 @@
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
-                            <h5 class="mb-3">Introducción a la Programación</h5>
-                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <h5 class="mb-3">Biologia</h5>
+                            <p>Aprende los conceptos basicos de la biologia.</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
