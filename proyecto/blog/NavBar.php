@@ -42,25 +42,17 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-<<<<<<< HEAD
-                <h2 class="m-0"><i class="fa fa-car text-primary me-2"></i>Cursos Online</h2>
-=======
                 <h2 class="m-0"><i class="fa fa-car text-primary me-2"></i>Drivin</h2>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
+                    <a href="index.php" class="nav-item nav-link">Inicio</a>
                     <a href="courses.php" class="nav-item nav-link">Cursos</a>
                     <a href="contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
-<<<<<<< HEAD
-                    <a href="" class="nav-item nav-link">Blog</a>
-=======
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/blog/blog-1.php" class="nav-item nav-link">Blog</a>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
+                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/blog/blog-1.php" class="nav-item nav-link active">Blog</a>
                     <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
