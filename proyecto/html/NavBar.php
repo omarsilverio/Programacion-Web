@@ -42,7 +42,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-                <h2 class="m-0"><i class="fa fa-car text-primary me-2"></i>Cursos Online</h2>
+                <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Cursos Online</h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
                     <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="courses.php" class="nav-item nav-link">Cursos</a>
                     <a href="contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
-                    <a href="blog/blog-1.php" class="nav-item nav-link">Blog</a>
+                    <a href="blog-1.php" class="nav-item nav-link">Blog</a>
                     <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -66,7 +66,7 @@
                     </div>
                     
                 </div>
-                <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Started<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
     </body>

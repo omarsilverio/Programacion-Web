@@ -64,7 +64,7 @@
 <body>
     <!--Navbar start-->
     <?php
-    include("NavBar.php")
+    include("../NavBar.php")
     ?>
     <!-- Navbar End -->
 
@@ -914,7 +914,7 @@ otros países. </p>
 
 
 
-   <?php include("Footer.php")?>
+   <?php include("../Footer.php")?>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

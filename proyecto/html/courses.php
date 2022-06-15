@@ -3,11 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
     <title>Cursos</title>
-=======
-    <title>Drivin - Driving School Website Template</title>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -42,11 +38,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-<<<<<<< HEAD
             <h1 class="display-4 text-white animated slideInDown mb-4">Cursos</h1>
-=======
-            <h1 class="display-4 text-white animated slideInDown mb-4">Courses</h1>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
@@ -57,116 +49,91 @@
         </div>
     </div>
     <!-- Page Header End -->
-
+    <!-- startSearch-->
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Todos Los Cursos</option>
+                    <option value="1">Mis cursos</option>            
+                </select>      
+            </div>
+            
+            <div class="col-7">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2"><i class="fa fa-search text-primary me-2"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end search-->
 
     <!-- Courses Start -->
     <div class="container-xxl py-6">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase mb-2">Tranding Courses</h6>
-                <h1 class="display-6 mb-4">Our Courses Upskill You With Driving Training</h1>
+                <h6 class="text-primary text-uppercase mb-2">Todos los Cursos</h6>
+                <h1 class="display-6 mb-4">Todos nuestros cursos</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-<<<<<<< HEAD
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
                             <h5 class="mb-3">Programación Web</h5>
                             <p>Aprende a realizar paginas web estaticas y dinamicas</p>
-=======
-                    <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Automatic Car Lessons</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-<<<<<<< HEAD
                             <img class="img-fluid" src="img/curso1.jpg" alt="">
                             <div class="courses-overlay">
                                 <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
-=======
-                            <img class="img-fluid" src="img/courses-1.jpg" alt="">
-                            <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-<<<<<<< HEAD
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$150.00</div>
                             <h5 class="mb-3">Programación Orientada a Objetos</h5>
                             <p>Aprende el paradigma orientado a objetos de una forma entendible</p>
-=======
-                    <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Highway Driving Lesson</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-<<<<<<< HEAD
                             <img class="img-fluid" src="img/curso2.png" alt="">
                             <div class="courses-overlay">
                                 <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
-=======
-                            <img class="img-fluid" src="img/courses-2.jpg" alt="">
-                            <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-<<<<<<< HEAD
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
                             <h5 class="mb-3">Introducción a la Programación</h5>
                             <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
-=======
-                    <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">International Driving</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-<<<<<<< HEAD
                             <img class="img-fluid" src="img/curso3.jpg" alt="">
                             <div class="courses-overlay">
                                 <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
-=======
-                            <img class="img-fluid" src="img/courses-3.jpg" alt="">
-                            <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
                             </div>
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
@@ -225,9 +192,6 @@
                     </div>
                 </div>
             </div>            
-=======
-            </div>
->>>>>>> 8a6f49fe2e0190eb660c7bfc79910dc7f37ebdc1
         </div>
     </div>
     <!-- Courses End -->
