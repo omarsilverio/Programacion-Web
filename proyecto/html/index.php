@@ -142,8 +142,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="img/about-1.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="img/about-2.jpg" alt="" style="width: 200px; height: 200px;">
+                        <img class="position-absolute w-100 h-100" src="img/about-4.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="img/about-3.jpg" alt="" style="width: 200px; height: 200px;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -166,15 +166,16 @@
                             </div>
                         </div>
                         <div class="row g-4">
+                            <!--
                             <div class="col-sm-6">
                                 <a class="btn btn-primary py-3 px-5" href="">Read More</a>
-                            </div>
+                            </div>-->
                             <div class="col-sm-6">
                                 <a class="d-inline-flex align-items-center btn btn-outline-primary border-2 p-2" href="tel:+0123456789">
                                     <span class="flex-shrink-0 btn-square bg-primary">
                                         <i class="fa fa-phone-alt text-white"></i>
                                     </span>
-                                    <span class="px-3">+012 345 6789</span>
+                                    <span class="px-3">cursosycapacitacionesonline@gmail.com</span>
                                 </a>
                             </div>
                         </div>
@@ -190,16 +191,16 @@
     <div class="container-xxl courses my-6 py-6 pb-0">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h6 class="text-primary text-uppercase mb-2">Tranding Courses</h6>
-                <h1 class="display-6 mb-4">Our Courses Upskill You With Driving Training</h1>
+                <h6 class="text-primary text-uppercase mb-2">Cursos Mas Solicitados</h6>
+                <h1 class="display-6 mb-4">Cursos Con Mayor Demanda Gracias a la Claridad de Estos</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Automatic Car Lessons</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Programación Web</h5>
+                            <p>Aprende a realizar paginas web estaticas y dinamicas</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
@@ -208,7 +209,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/courses-1.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
                         </div>
                     </div>
@@ -216,9 +217,9 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Highway Driving Lesson</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$150.00</div>
+                            <h5 class="mb-3">Programación Orientada a Objetos</h5>
+                            <p>Aprende el paradigma orientado a objetos de una forma entendible</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
@@ -227,7 +228,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/courses-2.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
                         </div>
                     </div>
@@ -235,9 +236,9 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">International Driving</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
+                            <h5 class="mb-3">Introducción a la Programación</h5>
+                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
@@ -246,7 +247,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/courses-3.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
                             </div>
                         </div>
                     </div>

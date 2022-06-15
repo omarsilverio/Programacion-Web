@@ -52,6 +52,7 @@
                     <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="courses.php" class="nav-item nav-link">Cursos</a>
                     <a href="contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
+                    <a href="" class="nav-item nav-link">Blog</a>
                     <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
