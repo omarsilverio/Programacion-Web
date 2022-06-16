@@ -131,7 +131,7 @@
 	<div class="container">
 	<div class="row" >
 	<div class="col-20">
-    <form action="php/phpFormularioAlumno.php" name="" method="POST">
+    <form action="/ProyectoFinalWeb/Programacion-Web/proyecto/php/phpFormularioAlumno.php" name="" method="POST">
 						<div class="container-fluid rounded-3">			
 							<div class="row"> 				
 								<div class="mb-3">
@@ -165,7 +165,7 @@
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
-								  <p style="font-size: 20px" for="correo" class="form-label" >Para completar su registro , cree un nombre de usuario unico y asigne una contraseña</p>		 
+								  <p style="font-size: 16px" class="form-label" >Para completar su registro , cree un nombre de usuario unico y asigne una contraseña</p>		 
 								</div>
 							</div>
 							<div class="row"> 				
