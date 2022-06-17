@@ -49,11 +49,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/index.php" class="nav-item nav-link ">Inicio</a>
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/courses.php" class="nav-item nav-link">Cursos</a>
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/blog/blog-1.php" class="nav-item nav-link active">Blog</a>
-                    <a href="/ProyectoFinalWeb/Programacion-Web/proyecto/html/about.php" class="nav-item nav-link">Acerca de</a>                   
+                    <a href="/Programacion-Web/proyecto/html/index.php" class="nav-item nav-link ">Inicio</a>
+                    <a href="/Programacion-Web/proyecto/html/courses.php" class="nav-item nav-link">Cursos</a>
+                    <a href="/Programacion-Web/proyecto/html/contact.php" class="nav-item nav-link">Dudas y Sugerencias</a>
+                    <a href="/Programacion-Web/proyecto/html/blog/blog-1.php" class="nav-item nav-link active">Blog</a>
+                    <a href="/Programacion-Web/proyecto/html/about.php" class="nav-item nav-link">Acerca de</a>                   
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu bg-light m-0">

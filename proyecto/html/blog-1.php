@@ -832,11 +832,11 @@ el lugar de trabajo.
 				<nav class="elementor-pagination" role="navigation" aria-label="Paginación">
 			
 <span aria-current="page" class="page-numbers current"><span class="elementor-screen-only">Página</span>1</span>
-<a class="page-numbers" href="blog-2.php"><span class="elementor-screen-only">Página</span>2</a>
-<a class="page-numbers" href="blog-3.php"><span class="elementor-screen-only">Página</span>3</a>
-<a class="page-numbers" href="blog-4.php"><span class="elementor-screen-only">Página</span>4</a>
-<a class="page-numbers" href="blog-5.php"><span class="elementor-screen-only">Página</span>5</a>
-<a class="page-numbers next" href="blog-2.php">Siguiente &gt;</a>		</nav>
+<a class="page-numbers" href="../blog-2.php"><span class="elementor-screen-only">Página</span>2</a>
+<a class="page-numbers" href="../blog-3.php"><span class="elementor-screen-only">Página</span>3</a>
+<a class="page-numbers" href="../blog-4.php"><span class="elementor-screen-only">Página</span>4</a>
+<a class="page-numbers" href="../blog-5.php"><span class="elementor-screen-only">Página</span>5</a>
+<a class="page-numbers next" href="../blog-2.php">Siguiente &gt;</a>		</nav>
 				</div>
 				</div>
 						</div>
@@ -871,17 +871,17 @@ el lugar de trabajo.
 			<ul>
 					<li class="cat-item cat-item-357"><a href="blog-mate.php" title="Temas de Matematicas">Matematicas</a>
 </li>
-	<li class="cat-item cat-item-42"><a href="blog-emp.php" title="Temas Empresariales">Empresarial</a>
+	<li class="cat-item cat-item-42"><a href="blog/blog-emp.php" title="Temas Empresariales">Empresarial</a>
 </li>
-	<li class="cat-item cat-item-367"><a href="blog-bio.php" title="Temas de biologia">Biologia</a>
+	<li class="cat-item cat-item-367"><a href="blog/blog-bio.php" title="Temas de biologia">Biologia</a>
 </li>
-	<li class="cat-item cat-item-114"><a href="blog-soc.php">Sociedad</a>
+	<li class="cat-item cat-item-114"><a href="blog/blog-soc.php">Sociedad</a>
 </li>	
-<li class="cat-item cat-item-114"><a href="blog-edfis.php">Educación fisica</a>
+<li class="cat-item cat-item-114"><a href="blog/blog-edfis.php">Educación fisica</a>
 </li>
-<li class="cat-item cat-item-114"><a href="blog-info.php">Informatica</a>
+<li class="cat-item cat-item-114"><a href="blog/blog-info.php">Informatica</a>
 </li>
-<li class="cat-item cat-item-114"><a href="blog-edu.php">Educación</a>
+<li class="cat-item cat-item-114"><a href="blog/blog-edu.php">Educación</a>
 </li>				
 			</ul>
 
