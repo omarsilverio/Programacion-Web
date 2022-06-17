@@ -33,6 +33,7 @@
 
 <body>
     <?php 
+        $page = 'contact';
         include("NavBar.php");
     ?>
     <!-- Page Header Start -->

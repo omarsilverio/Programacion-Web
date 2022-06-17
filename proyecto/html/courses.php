@@ -33,6 +33,7 @@
 
 <body>
     <?php
+        $page = 'courses';
         include("NavBar.php")
     ?> 
     <!-- Page Header Start -->
