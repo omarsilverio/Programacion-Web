@@ -34,6 +34,8 @@
                         <small class="far fa-clock text-primary me-2"></small>
                         <small>
                             <?php
+                            session_start();
+                            
                             $DateAndTime = date('d-m-Y h:i:s a', time());  
                             echo "$DateAndTime.";
                             ?>
@@ -56,7 +58,19 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-                <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Cursos Online</h2>
+                <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>
+                <?php 
+               if(isset( $_SESSION['conectado'])){
+                    $conectado=$_SESSION['conectado'];
+                     $nombrecom=$_SESSION['nombre'];
+                    if((substr_compare($conectado, "verdadero", 0, strlen($conectado))==0)){
+                           echo $nombrecom;
+                     }
+                    }else{
+                        echo "Cursos Online";
+                       }
+    ?>
+</h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -81,7 +95,28 @@
                     </div>
                     
                 </div>
-                <a href="RegistroAlumno.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
+
+                <?php 
+               
+               if(isset( $_SESSION['conectado'])){
+                    if((substr_compare($conectado, "verdadero", 0, strlen($conectado))==0)){
+                
+                      echo "<a href=\"../php/cerrarSesion.php\" class=\"btn btn-primary py-4 px-lg-5 d-none d-lg-block\">                                                    
+                      Cerrar Sesión                                             
+                      <i class=\"fa fa-arrow-right ms-3\"></i></a>";
+                }
+            }else{
+                echo "<a href=\"RegistroAlumno.php\" class=\"btn btn-primary py-4 px-lg-5 d-none d-lg-block\">                                                    
+                 Iniciar Sesión                                             
+                 <i class=\"fa fa-arrow-right ms-3\"></i></a>";
+            }
+            
+                ?>         
+
+                
+
+
+
             </div>
         </nav>
     </body>

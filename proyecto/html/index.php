@@ -47,8 +47,15 @@
 <body>
     <!--Navbar start-->
     <?php
+     session_start();
+     if(isset( $_SESSION['conectado'])){
+     $_SESSION['conectado'];
+     $_SESSION['nombre'];
+}	
     $page = 'index';
+    
     include("NavBar.php")
+   
     ?>
     <!-- Navbar End -->
 

@@ -64,6 +64,7 @@
 <body>
     <!--Navbar start-->
     <?php
+	 
     include("NavBar.php")
     ?>
     <!-- Navbar End -->

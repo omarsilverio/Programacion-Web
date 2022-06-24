@@ -55,35 +55,40 @@
         </div>-->
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-            <!-- Navbar Start -->
-            <a href="/Programacion-Web/proyecto/html/index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-                <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Blog</h2>
+            <a href="index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+                <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i> <?php session_start();
+    $conectado=$_SESSION['conectado'];
+    $nombrecom=$_SESSION['nombre'];
+    if((substr_compare($conectado, "verdadero", 0, strlen($conectado))==0)){
+        echo $nomrecom;
+    }
+             echo "Cursos Online";
+    }?></h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="/Programacion-Web/proyecto/html/index.php" class="nav-item nav-link <?php if($page=='index'){echo 'active';}?>">Inicio</a>
-                    <a href="/Programacion-Web/proyecto/html/courses.php" class="nav-item nav-link <?php if($page=='courses'){echo 'active';}?>">Cursos</a>
-                    <a href="/Programacion-Web/proyecto/html/contact.php" class="nav-item nav-link <?php if($page=='contact'){echo 'active';}?>">Dudas y Sugerencias</a>
-                    <a href="/Programacion-Web/proyecto/html/blog/blog-1.php" class="nav-item nav-link">Blog</a>
-                    <a href="/Programacion-Web/proyecto/html/about.php" class="nav-item nav-link">Acerca de</a>                   
+                    <a href="index.php" class="nav-item nav-link <?php if($page=='index'){echo 'active';}?>">Inicio</a>
+                    <a href="courses.php" class="nav-item nav-link <?php if($page=='courses'){echo 'active';}?>">Cursos</a>
+                    <a href="contact.php" class="nav-item nav-link <?php if($page=='contact'){echo 'active';}?>">Dudas y Sugerencias</a>
+                    <a href="blog/blog-1.php" class="nav-item nav-link">Blog</a>
+                    <a href="about.php" class="nav-item nav-link <?php if($page=='about'){echo 'active';}?>">Acerca de</a>                   
 
-                    <!-- <div class="nav-item dropdown">
+                   <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle <?php if($page=='addCourse'){echo 'active';}?>" data-bs-toggle="dropdown">Admin</a>
                         <div class="dropdown-menu bg-light m-0">
                             <a href="addCourse.php" class="dropdown-item">Agregar Curso</a>
-                           <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="appointment.html" class="dropdown-item">Appointment</a>
                             <a href="team.html" class="dropdown-item">Our Team</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             <a href="404.html" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div>-->
+                        </div>-->
+                    </div>
                     
                 </div>
-                <a href="/Programacion-Web/proyecto/html/index.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Salir<i class="fa fa-arrow-right ms-3"></i></a>
-          
+                <a href="RegistroAlumno.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
     </body>
