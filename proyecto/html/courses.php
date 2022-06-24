@@ -67,6 +67,15 @@
                 </div>
             </div>
         </div>
+        <br>
+        <div class="row">
+            <div class="col-8">
+                <label>¿Quieres comprar uno de nuestros cursos?</label>
+            </div>
+            <div class="col-3">
+                <a class="btn btn-outline-secondary" href="tienda.html" type="button" id="button-addon2">Ir a la tienda<i class="fa fa-shopping-cart text-primary me-2"></i></a>
+            </div>
+        </div>
     </div>
     <!--end search-->
 

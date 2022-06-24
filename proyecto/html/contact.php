@@ -27,6 +27,9 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -65,43 +68,46 @@
                     <h6 class="text-primary text-uppercase mb-2">Resuleve tus dudad y Comentarios</h6>
                     <h1 class="display-6 mb-4">¿Tienes alguna duda?, Por favor contactanos</h1>
                     <p class="mb-4">Porque nos preocupamos por tu aprendizaje, envianos un mensaje con alguna duda o sugerencia, todos los mensajes son bienvenidos, Tambien puedes visitarn</p>
-                    <form>
+                    <form action="../php/enviarDudas.php" method="POST">
                         <div class="row g-3">
                             <div class="col-md-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="name" placeholder="Your Name" required>
+                                    <input type="text" class="form-control border-0 bg-light" id="nombre" name="nombre" placeholder="Your Name" required>
                                     <label for="name">Nombre</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="primer_Apellido" placeholder="Primer Apellido" required>
+                                    <input type="text" class="form-control border-0 bg-light" id="primer_Apellido" name="primer_Apellido" placeholder="Primer Apellido" required>
                                     <label for="name">Primer Apellido</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="segundo_Apellido" placeholder="Primer Apellido" required>
+                                    <input type="text" class="form-control border-0 bg-light" id="segundo_Apellido" name="segundo_Apellido" placeholder="Primer Apellido" required>
                                     <label for="name">Segundo Apellido</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control border-0 bg-light" id="email" placeholder="Email" required>
+                                    <input type="email" class="form-control border-0 bg-light" id="email" name="email" placeholder="Email" required>
                                     <label for="email">Email</label>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="subject" placeholder="Asunto" required>
+                                    <input type="text" class="form-control border-0 bg-light" id="asunto" name="asunto" placeholder="Asunto" required>
                                     <label for="subject">Asunto</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control border-0 bg-light" placeholder="Escribe tu mensaje" id="message" style="height: 150px" required></textarea>
+                                    <textarea class="form-control border-0 bg-light" placeholder="Escribe tu mensaje" id="comentario" name="comentario" style="height: 150px" required></textarea>
                                     <label for="message">Mensaje</label>
                                 </div>
+                            </div>
+                            <div class="col-12">
+                                 <div class="g-recaptcha" data-sitekey="6Lf4IZogAAAAAJzTnqUijPgdE6ZSQndycTeEdhQk"></div>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary py-3 px-5" type="submit">Enviar</button>

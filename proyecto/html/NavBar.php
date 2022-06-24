@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+    <link href="css/font.css" rel="stylesheet">  
+    <link href="css/main.css" rel="stylesheet">  
+         
+    </head>
     <body>
          <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
+            <div class="spinner-grow text-primary" role="status"></div>            
         </div>
         <!-- Spinner End -->
+
+        <!--social-bar-->        
+        <div class="social-bar">
+            <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+            <a href="https://twitter.com/?lang=es" class="icon icon-twitter" target=_blank></a>
+            <a href="https://www.instagram.com/" class="icon icon-instagram" target=_blank></a>
+        </div>
         
-        <!-- Topbar Start -->
+        <!-- end social-bar-->
+        
+
+        <!-- Topbar Start
         <div class="container-fluid bg-dark text-light p-0">
             <div class="row gx-0 d-none d-lg-flex">
                 <div class="col-lg-7 px-5 text-start">
@@ -31,14 +46,13 @@
                         <small>951-123-145-6</small>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center mx-n2">
-                        <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://twitter.com/?lang=es"><i class="fab fa-twitter" target="_blank"></i></a>                        
+                        <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram" href="https://www.instagram.com/" target="_blank"></i></a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
@@ -55,13 +69,13 @@
                     <a href="blog/blog-1.php" class="nav-item nav-link">Blog</a>
                     <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle <?php if($page=='addCourse'){echo 'active';}?>" data-bs-toggle="dropdown">Admin</a>
                         <div class="dropdown-menu bg-light m-0">
-                            <a href="feature.html" class="dropdown-item">Features</a>
-                            <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="addCourse.php" class="dropdown-item">Agregar Curso</a>
+                           <!-- <a href="appointment.html" class="dropdown-item">Appointment</a>
                             <a href="team.html" class="dropdown-item">Our Team</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>-->
                         </div>
                     </div>
                     
