@@ -57,7 +57,7 @@ $contrasenia = $_POST["contrasenia"];
 $Ccontrasenia = $_POST["Ccontrasenia"];
 
 if(substr_compare($contrasenia ,$Ccontrasenia , 0, strlen($contrasenia),true)!=0){
-  echo'<a href="../html/RegistroAlumno.php">  contraseñas distintas  ', $contrasenia,'</a>';
+  echo' contraseñas distintas : ', $contrasenia,'';
   return 'Contrasenñas distintas';
 }
 
@@ -68,7 +68,7 @@ if(!$connection)
         }
   else
         {
-            echo "<b><h3>Conectado</h3></b>" ;
+            echo "Conectado" ;
         }
         //indicamos el nombre de la base datos
         $datab = "bdproyecto";
@@ -84,18 +84,12 @@ if(!$connection)
 		while ($colum = mysqli_fetch_array($result1))
  		{				
     		if(substr_compare($colum['usuario'], $usuario, 0, strlen($nombre))==0){				
-				echo'<h1>Nombre de usuario repetido </h1>';
-				echo'<br>';
-				echo'<a href="Programacion-Web/proyecto/html/RegistroAlumno.php"> Volver Atrás</a>';
+				echo'Nombre de usuario repetido ';
 				return 'Nombre de usuario repetido';
 			}    	
 			
 			//return 'Nombre de usuario repetido';
 		}
-
-		echo'<h1>Registros de alumno</h1>';
-			
-
 
 
 
@@ -105,47 +99,19 @@ if(!$connection)
         $resultado = mysqli_query($connection,$instruccion_SQL); 		
         //$consulta = "SELECT * FROM tabla where id ='2'"; si queremos que nos muestre solo un registro en especifivo de ID   
 
-
-
    //echo "Fuera " ;
-   echo'<a href="index.php"> Registro exitoso</a>';
+   if ($_POST['g-recaptcha-response'] == '') {
+    echo "Captcha invalido";
+    } else {
+        $Destino =$_POST['correo'];;
+        $asunto = "Inscripción cursos Gratis Online";
+        $Contenido = "Se ha aprovado tu solicitud de inscripción a Cursos Gratis Online";
 
-   $sql="SELECT * FROM alumno";
-
-   $resultado=mysqli_query($connection,$sql);
-
-
-?>
-<table border="1">
-  <thead >
-    <tr>
-      <th scope="col">#id</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Precio</th>
-      <th scope="col">localidad</th>
-      <th scope="col">Marca</th>
-      <th scope="col">Descripcion</th>
-    </tr>
-  </thead>
-  <tbody>
-  <?php
-// Ejecucion del bucle Foreach con MySQL
-foreach($resultado as $k) {
+        mail($Destino,$asunto,$Contenido);
+    }
+  header("location:../html/RegistroAlumno.php");
 
 
-?>
-<tr>
-      
-      <td><?php echo $k["usuario"]; ?></td>
-      <td><?php echo $k["nombre"]; ?></td>
-      <td><?php echo $k["apellido_paterno"]; ?></td>
-      <td><?php echo $k["localidad"]; ?></td>
-      <td><?php echo $k["marca"]; ?></td>
-      <td><?php echo $k["descripcion"]; ?></td>
-    </tr>
-    
-<?php
 mysqli_close( $connection );
-}
 ?>
 

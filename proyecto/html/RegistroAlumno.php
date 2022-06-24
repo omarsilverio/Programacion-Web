@@ -30,7 +30,8 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 	
-	
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	
 </head>
 
@@ -104,31 +105,31 @@
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="nombre" class="form-label">Nombre(s):</label>
-								  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ejemp. Juan Jose">
+								  <input required="" type="text" class="form-control" id="nombre" name="nombre" placeholder="Ejemp. Juan Jose">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="apellido_paterno" class="form-label">Primer Apellido:</label>
-								  <input type="text" class="form-control" id="apellido_paterno" name="apellido_paterno" placeholder="Ejemp. Ramirez">
+								  <input required="" type="text" class="form-control" id="apellido_paterno" name="apellido_paterno" placeholder="Ejemp. Ramirez">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="apellido_materno" class="form-label">Segundo Apellido:</label>
-								  <input type="text" class="form-control" id="apellido_materno" name="apellido_materno" placeholder="Ejemp. Ramirez">
+								  <input required="" type="text" class="form-control" id="apellido_materno" name="apellido_materno" placeholder="Ejemp. Ramirez">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="fehca_nacimiento" class="form-label">Fecha de nacimiento:</label>
-								  <input type="date" class="form-control" id="fehca_nacimiento" name="fehca_nacimiento" placeholder="Ejemp. 01/01/2022">
+								  <input required="" type="date" class="form-control" id="fehca_nacimiento" name="fehca_nacimiento" placeholder="Ejemp. 01/01/2022">
 								</div>
 							</div>
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="correo" class="form-label">Email:</label>
-								  <input type="email" class="form-control" id="correo" name="correo" placeholder="Ejemp. name@example.com">
+								  <input required="" type="email" class="form-control" id="correo" name="correo" placeholder="Ejemp. name@example.com">
 								</div>
 							</div>
 							<div class="row"> 				
@@ -139,21 +140,24 @@
 							<div class="row"> 				
 								<div class="mb-3">
 								  <label for="usuario" class="form-label">Usuario:</label>
-								  <input type="text" class="form-control" id="usuario"  name="usuario" placeholder="Ejemp. usuario$123">
+								  <input required="" type="text" class="form-control" id="usuario"  name="usuario" placeholder="Ejemp. usuario$123">
 								</div>
 							</div>
 							<div class="row">
 								<div class="mb-3">
 								  <label for="contrasenia" class="form-label">Contraseña:</label>
-								  <input type="password" class="form-control" id="contrasenia" id="contrasenia" name="contrasenia" placeholder="**********">
+								  <input required="" type="password" class="form-control" id="contrasenia" id="contrasenia" name="contrasenia" placeholder="**********">
 								</div>
 							</div>
 							<div class="row">
 								<div class="mb-3">
 								  <label for="Ccontrasenia" class="form-label">Confirmar contraseña:</label>
-								  <input type="password" class="form-control" id="Ccontrasenia" name="Ccontrasenia" placeholder="**********">
+								  <input required="" type="password" class="form-control" id="Ccontrasenia" name="Ccontrasenia" placeholder="**********">
 								</div>
 							</div>
+                            <div class="col-12">
+                                 <div class="g-recaptcha" data-sitekey="6LdgnZogAAAAAKdKqw3edggkXy86Zvxvm84ZjhQk"></div>
+                            </div>
 							<div  alaign="center" class="row">
 								<div alaign="center" class="col-auto">
 									<button  type="submit" class="btn btn-primary mb-3">Enviar</button>
