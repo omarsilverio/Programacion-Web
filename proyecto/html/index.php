@@ -229,8 +229,8 @@
 
                         
                         <dialog id="modal" >
-		                        <div class="flexpw" id="flexpw">
-			                        <div class="contenido-pw">
+		                        <div class="flex" id="flex">
+			                        <div class="contenido">
 				                        <div class="modal-header flex">
 					                        <h2>Programación Web</h2>
 					                        <a href="#" id="close" class="btn btn-outline-primary border-2" >X</a>

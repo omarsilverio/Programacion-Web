@@ -55,7 +55,7 @@
         </div>-->
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-            <a href="index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <a href="/Programacion-Web/proyecto/html/index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
                 <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Cursos Online</h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
