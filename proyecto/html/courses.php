@@ -33,6 +33,7 @@
 
 <body>
     <?php
+        $page = 'courses';
         include("NavBar.php")
     ?> 
     <!-- Page Header Start -->
@@ -64,6 +65,15 @@
                     <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <button class="btn btn-outline-primary" type="button" id="button-addon2"><i class="fa fa-search text-primary me-2"></i></button>
                 </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-8">
+                <label>¿Quieres comprar uno de nuestros cursos?</label>
+            </div>
+            <div class="col-3">
+                <a class="btn btn-outline-secondary" href="tienda.html" type="button" id="button-addon2">Ir a la tienda<i class="fa fa-shopping-cart text-primary me-2"></i></a>
             </div>
         </div>
     </div>
@@ -138,8 +148,8 @@
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
-                            <h5 class="mb-3">Introducción a la Programación</h5>
-                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <h5 class="mb-3">Matematicas 1</h5>
+                            <p>Aprende lo basico de las matematicas sumas, restas, multiplicaciones y mas.</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
@@ -157,8 +167,8 @@
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$100.00</div>
-                            <h5 class="mb-3">Introducción a la Programación</h5>
-                            <p>Aprende los conceptos básicos de la programación, desarrollaras pseudocodigos, diagramas de flujo y mas.</p>
+                            <h5 class="mb-3">Biologia</h5>
+                            <p>Aprende los conceptos basicos de la biologia.</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
                                 <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>

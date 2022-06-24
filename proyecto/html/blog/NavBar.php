@@ -42,7 +42,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-                <h2 class="m-0"><i class="fa fa-car text-primary me-2"></i>Drivin</h2>
+                <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Cursos Online</h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@
                     </div>
                     
                 </div>
-                <a href="ProyectoFinalWeb/Programacion-Web/proyecto/html/RegistroAlumno.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Started<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
     </body>
