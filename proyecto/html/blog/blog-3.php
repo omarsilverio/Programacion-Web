@@ -167,7 +167,7 @@
 
 	<!-- Contenido del blog de conceptos -->
 	<div class="elementor-row">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3ac3010b" data-id="3ac3010b" data-element_type="column">
+					<div class="elementor-column elementor-col-35 elementor-top-column elementor-element elementor-element-3ac3010b" data-id="3ac3010b" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
 							<div class="elementor-widget-wrap">
 						<div class="elementor-element elementor-element-284cae2c elementor-grid-1 elementor-grid-tablet-1 elementor-posts__hover-none elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="284cae2c" data-element_type="widget" data-settings="{&quot;cards_columns&quot;:&quot;1&quot;,&quot;cards_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;cards_columns_tablet&quot;:&quot;1&quot;,&quot;cards_columns_mobile&quot;:&quot;1&quot;,&quot;cards_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;cards_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.cards">

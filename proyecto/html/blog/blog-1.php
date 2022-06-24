@@ -173,10 +173,31 @@
 						<div class="elementor-element elementor-element-284cae2c elementor-grid-1 elementor-grid-tablet-1 elementor-posts__hover-none elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="284cae2c" data-element_type="widget" data-settings="{&quot;cards_columns&quot;:&quot;1&quot;,&quot;cards_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;cards_columns_tablet&quot;:&quot;1&quot;,&quot;cards_columns_mobile&quot;:&quot;1&quot;,&quot;cards_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;cards_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.cards">
 				<div class="elementor-widget-container">
 					<div class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid elementor-has-item-ratio">
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
 				
-						
-						
-						<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Aritmética</label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>La aritmética es una de las principales ramas de las matemáticas y se encarga de las operaciones básicas con números: sumar, restar, multiplicar y dividir. Su nombre deriva de una palabra del griego clásico que significa “número”.
+
+					El estudio de la aritmética se desarrolló en la antigua Grecia, evolucionó en las universidades medievales y desembocó en las teorías aritméticas de nuestros días. Un ejemplo es la llamada teoría de números, una rama de las matemáticas que estudia principalmente las propiedades de los números enteros. Esta teoría contiene problemas con enunciados muy fáciles de entender para personas que no sean expertas en matemáticas, ¡aunque muy difíciles de resolver!</p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			María Escutia		</span>
+				<span class="elementor-post-date">
+			mayo 20, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
 			<div class="elementor-post__card">
 				
 				<div class="elementor-post__text">
@@ -200,7 +221,349 @@
 				</div>
 					</div>
 		</article>
-<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Activos</label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>Cualquier bien que proporciona un flujo de utilidad
+							y/o ingreso en el futuro. Los activos incluyen
+						acciones, bonos, automóviles, estéreos, un grado
+						universitario, etc.</p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			German Lopez		</span>
+				<span class="elementor-post-date">
+			junio 23, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Activos intangibles</label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>El término “activos intangibles” se usa para describir
+						activos que se utilizan en la operación de un
+						negocio pero que no tienen sustancia física y no son
+						corrientes. Por ejemplo las patentes, los derechos de
+						autor, las marcas registradas y las franquicias. </p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Mariana bautista		</span>
+				<span class="elementor-post-date">
+			junio 9, 2021		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-676 post type-post status-publish format-standard has-post-thumbnail hentry category-diseno-web tag-contenido tag-estrategias tag-marketing tag-responsive-web-design tag-seo tag-sitio-web-responsive tag-usuarios-moviles">
+			<div class="elementor-post__card">				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">			
+				Álgebra
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>La palabra álgebra proviene del árabe y significa “recuperación” o “recomposición”. Se trata de una rama de las matemáticas donde las operaciones como la suma o la resta se realizan con números y letras.
+
+En el álgebra, las letras representan incógnitas o variables. En otras palabras, si en la aritmética las cantidades son representadas por números, en álgebra la letra X puede tener un valor determinado que desconocemos. Esta incógnita se resuelve mediante una ecuación.</p>
+		</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Lidia Nieto		</span>
+				<span class="elementor-post-date">
+			mayo 17, 2022		</span>				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Apropiabilidad, insuficiente apropiabilidad </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>El término apropiabilidad apunta a la pregunta
+							de ¿quién es el dueño del conocimiento? La dificultad
+							para apropiar privadamente los beneficios de
+							generar nuevo conocimiento es uno de los
+							grandes obstáculos para la innovación. Aunque
+							el beneficio colectivo puede ser muy alto, no
+							existen los incentivos económicos para desarrollar
+							individualmente una actividad clave para el
+							proceso innovativo. Debido a los altos costos
+							que implica generar cierta información y la baja
+							posibilidad de retener sus beneficios económicos,
+							antecedentes fundamentales para los actores del
+							sistema pueden no estar disponibles, y no habrá un
+							actor individual ni colectivo dispuesto a producirla.
+							El problema de la insuficiente apropiabilidad del
+							conocimiento es una de las fallas de mercado
+							afectando la generación de innovación.  </p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Karina Ruiz		</span>
+				<span class="elementor-post-date">
+			octubre 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Bienes públicos </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>Bienes que proporcionan beneficios no exclusivos
+						a cualquier persona de un grupo, y que pueden
+						ser suministrados a un usuario más sin costo
+						adicional. </p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Karina Ruiz		</span>
+				<span class="elementor-post-date">
+			octubre 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5777 post type-post status-publish format-standard has-post-thumbnail hentry category-inbound-marketing tag-diseno-responsive tag-email-marketing tag-estrategias tag-marketing tag-marketing-de-contenidos">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">			
+				Geometría		
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>La palabra geometría deriva del latín geo, que significa “tierra”, y metría, que podría traducirse como “medida”. Esta rama de las matemáticas tiene como objetivo el estudio de las propiedades y magnitudes de las figuras geométricas, como los cuadrados, los rectángulos o las esferas.
+
+Estas figuras se utilizan normalmente en diseño gráfico y son esenciales en el ámbito de la arquitectura, la cartografía, la astronomía o la geografía, entre otros.
+
+Existen diferentes ramas dentro de la geometría, como la geometría del espacio (figuras tridimensionales), la  geometría plana (figuras dentro de un solo plano) o la geometría descriptiva (técnicas para representar figuras tridimensionales en un plano).</p>
+		</div>					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Lidia Nieto		</span>
+				<span class="elementor-post-date">
+			mayo 11, 2022		</span>				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5369 post type-post status-publish format-standard has-post-thumbnail hentry category-socialmedia tag-social-media">
+			<div class="elementor-post__card">				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">			
+				Estadística
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Esta ciencia estudia el conjunto de probabilidades de un fenómeno en base a un conjunto de datos o información disponible. Aunque no suele asociarse a las matemáticas, es una de sus ramas más utilizadas en el día a día.
+
+El origen de la estadística suele atribuirse al economista Gottfried Achenwall (1719-1772), que definió el término statistik como la “ciencia de las cosas que pertenecen al Estado”. Así, la estadística se utiliza normalmente para analizar datos demográficos y económicos, pero también es una herramienta muy útil para contabilizar cantidades de cualquier producto o servicio a lo largo de un periodo de tiempo concreto.</p>
+		</div>					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			María Escutia		</span>
+				<span class="elementor-post-date">
+			mayo 9, 2022		</span>				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5753 post type-post status-publish format-standard has-post-thumbnail hentry category-diseno-web tag-diseno-responsive tag-diseno-responsive-elementos tag-diseno-responsive-web tag-estrategia tag-estrategia-diseno-web">
+			<div class="elementor-post__card">				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			
+				Números Primos
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Los números primos son todos aquellos números que solamente pueden ser divisibles por sí mismos o por 1, como por ejemplo el 5, el 7 o el 11. Podríamos decir que son el “pilar” a partir del cual se construyen los otros números.
+
+Su estudio forma parte de la teoría de números, no siguen ningún patrón (aparentemente) y están presentes en algunas de las fórmulas y teoremas más conocidos.</p>
+		</div>					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Lidia Nieto		</span>
+				<span class="elementor-post-date">
+			mayo 6, 2022		</span>			
+				</div>
+					</div>
+		</article>
+	<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Ciencia  </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>Conjunto de conocimientos obtenidos mediante la
+						observación y el razonamiento, sistemáticamente
+						estructurados y de los que se deducen principios
+						y leyes generales. En otra acepción, ciencia es el
+						conjunto de conocimientos relativos a las ciencias
+						exactas, fisicoquímicas y naturales.</p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Karina Ruiz		</span>
+				<span class="elementor-post-date">
+			octubre 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>	
+	<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Cluster  </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>Concentración de empresas relacionadas entre sí,
+					en una zona geográfica relativamente definida, de
+					modo de conformar en sí misma un polo productivo
+					especializado con ventajas competitivas. </p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Karina Ruiz		</span>
+				<span class="elementor-post-date">
+			octubre 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>						
+		<article class="elementor-post elementor-grid-item post-4706 post type-post status-publish format-standard has-post-thumbnail hentry category-contenido-seo tag-seo">
+			<div class="elementor-post__card">				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">			
+				Número pi
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>El número pi es uno de los número más conocidos en el mundo. Es una constante matemática que indica la relación entre la longitud de una circunferencia y su diámetro.
+
+Desde su primera aparición hace más de 4.000 años en el Antiguo Egipto, pi se ha convertido en un elemento primordial para el estudio de las circunferencias. Por eso se utiliza de forma habitual en matemáticas, física, topografía, estadística e ingeniería. Su símbolo corresponde a la letra del alfabeto griego π, que es la primera letra de la palabra perímetro en griego.
+
+El número pi es un número irracional con decimales infinitos, pero se aproxima normalmente a 3,14. </p>
+		</div>			
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			María Escutia		</span>
+				<span class="elementor-post-date">
+			abril 29, 2022		</span>			
+				</div>
+					</div>
+		</article>
+						
+						
+						
+<article class="elementor-post elementor-grid-item post-4706 post type-post status-publish format-standard has-post-thumbnail hentry category-contenido-seo tag-seo">
+			<div class="elementor-post__card">				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">			
+				Número e
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Aunque es menos conocido que el anterior, el número e es una de las constantes matemáticas y números irracionales de mayor importancia. Deriva de la palabra exponencial y su extensión también es infinita, aunque se redondea a 2,718.
+
+El número e también se conoce como número de Euler o constante de Napier, ya que su valor fue definido en el siglo XVII por el matemático escocés John Napier, el padre del logaritmo. Como el número Pi, es una herramienta de gran importancia para el cálculo y la geometría que se utiliza en ámbitos como la economía, biología, física e informática.</p>
+		</div>			
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			María Escutia		</span>
+				<span class="elementor-post-date">
+			abril 29, 2022		</span>			
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Coeficiente de invención  </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>Patentes solicitadas por residentes cada 100.000
+						habitantes. Cuanto mayor sea el valor de este
+						indicador, mayor capacidad de invención del país. </p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Karina Ruiz		</span>
+				<span class="elementor-post-date">
+			octubre 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Competitividad  </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>Capacidad de competir.</p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Hector Ruiz		</span>
+				<span class="elementor-post-date">
+			marzo 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
 			<div class="elementor-post__card">
 				
 				<div class="elementor-post__text">
@@ -222,7 +585,7 @@
 				</div>
 					</div>
 		</article>
-<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
 			<div class="elementor-post__card">
 				
 				<div class="elementor-post__text">
@@ -246,7 +609,35 @@
 				</div>
 					</div>
 		</article>
-<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+					<label>
+						Desarrollo experimental   </label>
+				</h3>
+				<div class="elementor-post__excerpt">
+					<p>El desarrollo experimental consiste en trabajos
+						sistemáticos fundamentados en los conocimientos existentes obtenidos por la investigación o la
+						experiencia práctica, que se dirigen a la fabricación de nuevos materiales, productos o dispositivos,
+						a establecer nuevos procedimientos, sistemas y servicios, o a mejorar considerablemente los que
+						ya existen. En las ciencias sociales, el desarrollo experimental puede definirse como el proceso que permite
+						convertir los conocimientos adquiridos a través de la investigación en programas operativos, incluidos los proyectos de demostración que se
+						llevan a cabo con fines de ensayo y evaluación. Esta categoría tiene escasa o nula significación en el caso de las humanidades.</p>
+				</div>
+					
+				</div>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-author">
+			Hector Lavoe		</span>
+				<span class="elementor-post-date">
+			marzo 19, 2022		</span>
+				
+				</div>
+					</div>
+		</article>
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
 			<div class="elementor-post__card">
 				
 				<div class="elementor-post__text">
@@ -274,7 +665,7 @@ rango universitario.</p>
 				</div>
 					</div>
 		</article>
-<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+		<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
 			<div class="elementor-post__card">
 				
 				<div class="elementor-post__text">
@@ -301,7 +692,7 @@ a suscitar el aprendizaje.</p>
 				</div>
 					</div>
 		</article>
-<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+	<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
 			<div class="elementor-post__card">
 				
 				<div class="elementor-post__text">
@@ -405,127 +796,63 @@ duración es variable.</p>
 				</div>
 					</div>
 		</article>
-<article class="elementor-post elementor-grid-item post-5369 post type-post status-publish format-standard has-post-thumbnail hentry category-socialmedia tag-social-media">
-			<div class="elementor-post__card">				
+						
+	<article class="elementor-post elementor-grid-item post-5764 post type-post status-publish format-standard has-post-thumbnail hentry category-video-marketing tag-video-marketing">
+			<div class="elementor-post__card">
+				
 				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">			
-				Niveles de educación 
-		</h3>
+				<h3 class="elementor-post__title">
+					<label>
+						Empleo   </label>
+				</h3>
 				<div class="elementor-post__excerpt">
-			<p>Se relaciona en términos generales con la gradación de
-las experiencias de aprendizaje y con las competencias
-que el contendido de un programa educativo exige
-de los participantes para que éstos puedan adquirir
-los conocimientos, destrezas y capacidades que el
-programa se propone impartir. En términos generales
-se refiere al grado de complejidad del contenido del
-programa. Los niveles de educación no constituyen
-necesariamente una escalera en la que el acceso de
-los posibles participantes a cada uno de los niveles
-depende de la aprobación del nivel anterior. La
-clasificación CINE comprende 7 niveles de educación,
-numerados desde el 0 hasta el 6:<br>
-• Nivel 0: Educación Preescolar o Pre-primaria<br>
-• Nivel 1: Educación Primaria o primer ciclo de
-educación básica<br>
-• Nivel 2: Primer Ciclo de Educación Secundaria
-o segundo ciclo de educación básica<br>
-• Nivel 3: Segundo ciclo de educación
-secundaria</p>
-		</div>					
+					<p>Un conjunto de tareas y deberes ejecutados (o
+pensados para ser ejecutados), por una persona.
+Los empleos requieren habilidades que pueden
+ser adquiridas por educación o entrenamiento en
+el lugar de trabajo. 
+</p>
 				</div>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-author">
-			María Escutia		</span>
-				<span class="elementor-post-date">
-			mayo 9, 2022		</span>				
-				</div>
-					</div>
-		</article>
-<article class="elementor-post elementor-grid-item post-676 post type-post status-publish format-standard has-post-thumbnail hentry category-diseno-web tag-contenido tag-estrategias tag-marketing tag-responsive-web-design tag-seo tag-sitio-web-responsive tag-usuarios-moviles">
-			<div class="elementor-post__card">				
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">			
-				Holístico
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Pensamiento filosófico que reclama el análisis de un sistema como un todo, de forma global e integrada y que no permite su explicación desde la suma de sus partes. En el campo de la educación física, lo holístico encuentra su norte en el creencia constructiva de que la persona halla el significado de su existencia, cuando toma habilidades sociales, físicas y en contacto con su medio, que le permitan el auto-reconocimiento y despierten la pasión por el aprendizaje.</p>
-		</div>
 					
 				</div>
 				<div class="elementor-post__meta-data">
 					<span class="elementor-post-author">
-			Lidia Nieto		</span>
+			Maribel Guardia		</span>
 				<span class="elementor-post-date">
-			mayo 17, 2022		</span>				
+			marzo 19, 2022		</span>
+				
 				</div>
 					</div>
-		</article>
-<article class="elementor-post elementor-grid-item post-4706 post type-post status-publish format-standard has-post-thumbnail hentry category-contenido-seo tag-seo">
-			<div class="elementor-post__card">				
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">			
-				Salud
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Es una condición humana con las dimensiones físicas, sociales y psicológicas, cada una caracterizado por un continuo con polos positivos y negativos. Positivos para la salud se asocia con una capacidad para disfrutar de la vida y para resistir los desafíos, no es solamente la ausencia de enfermedad. Negativos en la salud está asociado con la enfermedad, y en el extremo, con la muerte prematura.</p>
-		</div>			
+		</article>						
 				</div>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-author">
-			María Escutia		</span>
-				<span class="elementor-post-date">
-			abril 29, 2022		</span>			
-				</div>
-					</div>
-		</article>	
-						
-<article class="elementor-post elementor-grid-item post-4706 post type-post status-publish format-standard has-post-thumbnail hentry category-contenido-seo tag-seo">
-			<div class="elementor-post__card">				
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">			
-				Salud alimentaria
-		</h3>
-				<div class="elementor-post__excerpt">
-			<p>Este concepto reúne cualidades de protección y seguridad, basadas en la regulación de la alimentación y en el papel de la misma en el desarrollo corporal. El principio de esta es el conocimiento de las propiedades de los nutrientes, las combinaciones, las eliminaciones y los cambios en los hábitos de vida a fin de mejorar el equilibrio entre mente y cuerpo. La salud alimentaria demanda de un mayor control sobre lo que se consume y forma parte del desarrollo de habilidades motrices.</p>
-		</div>			
-				</div>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-author">
-			María Escutia		</span>
-				<span class="elementor-post-date">
-			abril 29, 2022		</span>			
-				</div>
-					</div>
-		</article>
-
-						
-						
-						
-					</div>
 
 
 		
-				<div class="e-load-more-anchor" data-page="5" data-max-page="23" data-next-page="blog-5.php"></div>
-		
+				<div class="e-load-more-anchor" data-page="1" data-max-page="23" data-next-page="blog-1.php"></div>
+				<nav class="elementor-pagination" role="navigation" aria-label="Paginación">
+			
+<span aria-current="page" class="page-numbers current"><span class="elementor-screen-only">Página</span>1</span>
+<a class="page-numbers" href="blog-2.php"><span class="elementor-screen-only">Página</span>2</a>
+<a class="page-numbers" href="blog-3.php"><span class="elementor-screen-only">Página</span>3</a>
+<a class="page-numbers" href="blog-4.php"><span class="elementor-screen-only">Página</span>4</a>
+<a class="page-numbers" href="blog-5.php"><span class="elementor-screen-only">Página</span>5</a>
+<a class="page-numbers next" href="blog-2.php">Siguiente &gt;</a>		</nav>
 				</div>
 				</div>
 						</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-41bfdf3b" data-id="41bfdf3b" data-element_type="column">
-			<div class="elementor-column-wrap">
-							<div class="elementor-widget-wrap">
-								</div>
-					</div>
+	<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-41bfdf3b" data-id="41bfdf3b" data-element_type="column">
+		<div class="elementor-column-wrap">
+			<div class="elementor-widget-wrap">
+			</div>
 		</div>
+	</div>
 				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-491bc3ad" data-id="491bc3ad" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
 							<div class="elementor-widget-wrap">
 						<div class="elementor-element elementor-element-7a5303cc elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-search-form--icon-search elementor-widget elementor-widget-search-form" data-id="7a5303cc" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
-				<div class="elementor-widget-container">
 				
-				</div>
 				</div>
 				<div class="elementor-element elementor-element-269c5dc3 elementor-widget elementor-widget-spacer" data-id="269c5dc3" data-element_type="widget" data-widget_type="spacer.default">
 				<div class="elementor-widget-container">
@@ -540,6 +867,7 @@ secundaria</p>
 				</div>
 				<div class="elementor-element elementor-element-359f5d82 blogcat elementor-widget elementor-widget-wp-widget-categories" data-id="359f5d82" data-element_type="widget" data-widget_type="wp-widget-categories.default">
 				<div class="elementor-widget-container">
+			
 			<ul>
 					<li class="cat-item cat-item-357"><a href="blog-mate.php" title="Temas de Matematicas">Matematicas</a>
 </li>
@@ -557,7 +885,6 @@ secundaria</p>
 </li>				
 			</ul>
 
-
 					</div>
 				</div>
 				<div class="elementor-element elementor-element-25d5e02d elementor-widget elementor-widget-spacer" data-id="25d5e02d" data-element_type="widget" data-widget_type="spacer.default">
@@ -567,7 +894,13 @@ secundaria</p>
 		</div>
 				</div>
 				</div>
+				<div class="elementor-element elementor-element-1dc47f97 elementor-widget elementor-widget-heading" data-id="1dc47f97" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			
 
+		</div>
+					
+				</div>
 				<div class="elementor-element elementor-element-7cde7fd9 elementor-widget elementor-widget-spacer" data-id="7cde7fd9" data-element_type="widget" data-widget_type="spacer.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-spacer">
@@ -576,7 +909,7 @@ secundaria</p>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-1444ea9b elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-text-editor" data-id="1444ea9b" data-element_type="widget" data-widget_type="text-editor.default">
-				
+				</div>
 				<div class="elementor-element elementor-element-6a928c5d elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone eael-wpforms-form-button-custom elementor-widget elementor-widget-eael-wpforms" data-id="6a928c5d" data-element_type="widget" data-widget_type="eael-wpforms.default">
 				<div class="elementor-widget-container">
 			            <div class="eael-contact-form eael-wpforms eael-contact-form-align-default">
@@ -601,7 +934,13 @@ secundaria</p>
 					</div>
 		</div>
 								</div>
-		</div>
+
+
+   
+
+
+
+
 
 
    <?php include("Footer.php")?>

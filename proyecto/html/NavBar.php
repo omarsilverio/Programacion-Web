@@ -55,7 +55,7 @@
         </div>-->
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <a href="index.php" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
                 <h2 class="m-0"><i class="fa fa-book text-primary me-2"></i>Cursos Online</h2>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -67,20 +67,21 @@
                     <a href="courses.php" class="nav-item nav-link <?php if($page=='courses'){echo 'active';}?>">Cursos</a>
                     <a href="contact.php" class="nav-item nav-link <?php if($page=='contact'){echo 'active';}?>">Dudas y Sugerencias</a>
                     <a href="blog/blog-1.php" class="nav-item nav-link">Blog</a>
-                    <a href="about.html" class="nav-item nav-link">Acerca de</a>                   
-                    <div class="nav-item dropdown">
+                    <a href="about.php" class="nav-item nav-link <?php if($page=='about'){echo 'active';}?>">Acerca de</a>                   
+
+                   <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle <?php if($page=='addCourse'){echo 'active';}?>" data-bs-toggle="dropdown">Admin</a>
                         <div class="dropdown-menu bg-light m-0">
                             <a href="addCourse.php" class="dropdown-item">Agregar Curso</a>
-                           <!-- <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="appointment.html" class="dropdown-item">Appointment</a>
                             <a href="team.html" class="dropdown-item">Our Team</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>-->
-                        </div>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>-->
                     </div>
                     
                 </div>
-                <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="RegistroAlumno.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Iniciar Sesión<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
     </body>
