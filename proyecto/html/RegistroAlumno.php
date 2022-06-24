@@ -173,6 +173,48 @@
 				<div>
 					<img  width="700px" heigh="1700px" src="img/iniciosesion.png" alt="imagen de una libreta">
                 </div>
+                <br>
+                <br>
+                <div alaign="center" class="col-auto">																	
+                    <h2 aling="center"> Ya tienes una cuenta? </h2>
+                    <a href="#" id="abrir" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block" ><i class="fa fa-arrow-right ms-3"></i>Ingresar</a>
+                </div>
+                <dialog id="modal" >
+		                        <div class="flex" id="flex">
+			                        <div class="contenido">
+				                        <div class="modal-header flex">
+					                        <h2>Inicio de Sesion     </h2>
+                                            <tab>
+					                        <a href="#" id="close" class="btn btn-outline-primary border-2" >X</a>
+				                        </div>
+				                        <div class="modal-body">
+                                            <form action="/Programacion-Web/proyecto/php/iniciosesion.php" name="" method="POST">
+                                            <div class="row"> 				
+								                <div class="mb-3">
+								                <label for="usuario" class="form-label">Usuario:</label>
+								                <input required="" type="text" class="form-control" id="usuario"  name="usuario" placeholder="Ejemp. usuario$123">
+								            </div>
+							            </div>
+							            <div class="row">
+								        <div class="mb-3">
+								            <label for="contrasenia" class="form-label">Contraseña:</label>
+								            <input required="" type="password" class="form-control" id="contrasenia" id="contrasenia" name="contrasenia" placeholder="**********">
+								        </div>
+							            </div>
+
+
+                                        <div alaign="center" class="col-auto">
+								        	<button aling="center" type="submit" class="btn btn-primary mb-3">Acceder</button>
+								        </div>
+                                            </form>
+
+			
+				                        </div>
+			                        </div>
+		                 </div>
+                    </dialog>
+	                    <script src="js/LoginModal.js"></script>
+                        <script src="js/modalinicio.js"></script>
             </div>
         </div>
     </div>
