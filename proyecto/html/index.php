@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+
+
     <meta charset="utf-8">
     <title>Cursos y Cacitaciones</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -26,9 +28,20 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- Todo esto agregre para mostar con estilos el modal-->
+
+    
+
+
+
+<!-- Todo esto agregre para mostar con estilos el modal-->
+
+
 </head>
 
 <body>
@@ -202,16 +215,77 @@
                             <h5 class="mb-3">Programación Web</h5>
                             <p>Aprende a realizar paginas web estaticas y dinamicas</p>
                             <ol class="breadcrumb justify-content-center mb-0">
-                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
-                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Basico</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Semanas</li>
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/curso1.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
-                            </div>
+                                <a href="#" id="abrir" class="btn btn-outline-primary border-2" >Ver Más</a>
+                            </div>                        
                         </div>
+
+
+                        
+                        <dialog id="modal" >
+		                        <div class="flexpw" id="flexpw">
+			                        <div class="contenido-pw">
+				                        <div class="modal-header flex">
+					                        <h2>Programación Web</h2>
+					                        <a href="#" id="close" class="btn btn-outline-primary border-2" >X</a>
+				                        </div>
+				                        <div class="modal-body">
+
+                                        <section _ngcontent-ofb-c90="" class="detail-about"><div _ngcontent-ofb-c90="" class="detail-about__wrapper">
+                                            <div _ngcontent-ofb-c90="" class="detail-about__content"><div _ngcontent-ofb-c90="" class="detail-about__detail">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-title">Detalles del curso</span>
+                                                <div _ngcontent-ofb-c90="" class="detail-about__detail-items">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <mat-icon _ngcontent-ofb-c90="" role="img" class="mat-icon notranslate detail-about__detail-icon material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">reorder</mat-icon>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Módulos: 2</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <mat-icon _ngcontent-ofb-c90="" role="img" class="mat-icon notranslate detail-about__detail-icon material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">access_time</mat-icon>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Horas: 1.5</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <img _ngcontent-ofb-c90="" role="presentation" alt="" class="detail-about__detail-icon" src="/static/digital-workshop/assets/icons/level-beginner.svg">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Principiante</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <img _ngcontent-ofb-c90="" src="/static/digital-workshop/assets/icons/free-course.svg" role="presentation" alt="" class="detail-about__detail-icon">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Sin coste</span></span></div></div>
+                                                <div _ngcontent-ofb-c90="" class="detail-about__features ng-star-inserted">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__features-title">Características del curso</span><div _ngcontent-ofb-c90="">
+                                            <ul>
+                                                <li>Tutoriales en vídeo </li>
+                                                <li>Consejos fáciles de aplicar</li>
+                                                <li>Evaluaciones al finalizar cada tema</li>
+                                                <li>Acceso ilimitado</li>
+                                            </ul>
+                                            </div></div><!----><div _ngcontent-ofb-c90="" class="detail-about__info ng-star-inserted">
+                                            <h2 _ngcontent-ofb-c90="" class="detail-about__info-title">Acerca de este curso</h2>
+                                            <p _ngcontent-ofb-c90="" class="detail-about__info-description ng-star-inserted">
+                                            
+                                            Los últimos avances en Internet han revolucionado la forma en que se conciben los sistemas de información empresariales, y la Web se ha convertido en el marco de publicación y explotación de todo tipo de contenidos y recursos multimedia, que constituyen el canal fundamental de comunicación entre la empresa y el consumidor.
+
+Esta asignatura se centra en el estudio de HTML5 como lenguaje de implementación de hipertexto e hipermedia de mayor auge en la actualidad. La asignatura cubre el estudio de los sistemas y arquitecturas actuales para la distribución de información multimedia, los estándares y protocolos para la inclusión de imagen, audio y video en los portales web, generación dinámica de contenidos y animaciones, así como el uso de bibliotecas digitales y tecnologías de desarrollo de aplicaciones multimedia multi-plataforma.
+
+Es recomendable para el aprovechamiento de esta asignatura tener conocimientos de redes de computadores, de sistemas distribuidos y de interacción usuario-computador.
+
+                                            
+                                            
+                                            
+                                            
+                                            </p>
+                                            <!----><!----></div><!----><!----></div></div></section>
+
+			
+				                        </div>
+			                        </div>
+		                        </div>
+                         </dialog>
+	                    <script src="js/scriptmodal.js"></script>
+
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -228,9 +302,69 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/curso2.png" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
+                            <a href="#" id="abrir" class="btn btn-outline-primary border-2" >Ver Más</a>
                             </div>
-                        </div>
+                        </div>                       
+
+                        <dialog id="modal" >
+		                        <div class="flexpoo" id="flexpoo">
+			                        <div class="contenido-modal">
+				                        <div class="modal-header flex">
+					                        <h2>Programación Orientada a Objetos</h2>
+					                        <a href="#" id="close" class="btn btn-outline-primary border-2" >X</a>
+				                        </div>
+				                        <div class="modal-body">
+
+                                        <section _ngcontent-ofb-c90="" class="detail-about"><div _ngcontent-ofb-c90="" class="detail-about__wrapper">
+                                            <div _ngcontent-ofb-c90="" class="detail-about__content"><div _ngcontent-ofb-c90="" class="detail-about__detail">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-title">Detalles del curso</span>
+                                                <div _ngcontent-ofb-c90="" class="detail-about__detail-items">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <mat-icon _ngcontent-ofb-c90="" role="img" class="mat-icon notranslate detail-about__detail-icon material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">reorder</mat-icon>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Módulos: 2</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <mat-icon _ngcontent-ofb-c90="" role="img" class="mat-icon notranslate detail-about__detail-icon material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">access_time</mat-icon>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Horas: 1.5</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <img _ngcontent-ofb-c90="" role="presentation" alt="" class="detail-about__detail-icon" src="/static/digital-workshop/assets/icons/level-beginner.svg">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Principiante</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <img _ngcontent-ofb-c90="" src="/static/digital-workshop/assets/icons/free-course.svg" role="presentation" alt="" class="detail-about__detail-icon">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Sin coste</span></span></div></div>
+                                                <div _ngcontent-ofb-c90="" class="detail-about__features ng-star-inserted">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__features-title">Características del curso</span><div _ngcontent-ofb-c90="">
+                                            <ul>
+                                                <li>Tutoriales en vídeo </li>
+                                                <li>Consejos fáciles de aplicar</li>
+                                                <li>Evaluaciones al finalizar cada tema</li>
+                                                <li>Acceso ilimitado</li>
+                                            </ul>
+                                            </div></div><!----><div _ngcontent-ofb-c90="" class="detail-about__info ng-star-inserted">
+                                            <h2 _ngcontent-ofb-c90="" class="detail-about__info-title">Acerca de este curso</h2>
+                                            <p _ngcontent-ofb-c90="" class="detail-about__info-description ng-star-inserted">
+                                            
+                                            La Programación Orientada a Objetos (POO) es un paradigma de programación, es decir, un modelo o un estilo de programación que nos da unas guías sobre cómo trabajar con él. Se basa en el concepto de clases y objetos. Este tipo de programación se utiliza para estructurar un programa de software en piezas simples y reutilizables de planos de código (clases) para crear instancias individuales de objetos. 
+
+A lo largo de la historia, han ido apareciendo diferentes paradigmas de programación. Lenguajes secuenciales como COBOL o procedimentales como Basic o C, se centraban más en la lógica que en los datos. Otros más modernos como Java, C# y Python, utilizan paradigmas para definir los programas, siendo la Programación Orientada a Objetos la más popular. 
+
+Con el paradigma de Programación Orientado a Objetos lo que buscamos es dejar de centrarnos en la lógica pura de los programas, para empezar a pensar en objetos, lo que constituye la base de este paradigma. Esto nos ayuda muchísimo en sistemas grandes, ya que en vez de pensar en funciones, pensamos en las relaciones o interacciones de los diferentes componentes del sistema.
+
+Un programador diseña un programa de software organizando piezas de información y comportamientos relacionados en una plantilla llamada clase. Luego, se crean objetos individuales a partir de la plantilla de clase. Todo el programa de software se ejecuta haciendo que varios objetos interactúen entre sí para crear un programa más grande.
+                                            
+                                            
+                                            
+                                            </p>
+                                            <!----><!----></div><!----><!----></div></div></section>
+
+			
+				                        </div>
+			                        </div>
+		                        </div>
+</dialog>
+	                    <script src="js/scriptmodal.js"></script>
+
+                        
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -247,9 +381,66 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/curso3.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Ver Más</a>
+                            <a href="#" id="abrir" class="btn btn-outline-primary border-2" >Ver Más</a>
                             </div>
                         </div>
+
+                        
+                        <dialog id="modal" >
+		                        <div class="flex" id="flex">
+			                        <div class="contenido-modal">
+				                        <div class="modal-header flex">
+					                        <h2>Introduccion a la Programación</h2>
+					                        <a href="#" id="close" class="btn btn-outline-primary border-2" >X</a>
+				                        </div>
+				                        <div class="modal-body">
+
+                                        <section _ngcontent-ofb-c90="" class="detail-about"><div _ngcontent-ofb-c90="" class="detail-about__wrapper">
+                                            <div _ngcontent-ofb-c90="" class="detail-about__content"><div _ngcontent-ofb-c90="" class="detail-about__detail">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-title">Detalles del curso</span>
+                                                <div _ngcontent-ofb-c90="" class="detail-about__detail-items">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <mat-icon _ngcontent-ofb-c90="" role="img" class="mat-icon notranslate detail-about__detail-icon material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">reorder</mat-icon>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Módulos: 2</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <mat-icon _ngcontent-ofb-c90="" role="img" class="mat-icon notranslate detail-about__detail-icon material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">access_time</mat-icon>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Horas: 1.5</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <img _ngcontent-ofb-c90="" role="presentation" alt="" class="detail-about__detail-icon" src="/static/digital-workshop/assets/icons/level-beginner.svg">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Principiante</span></span>
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-icon-container">
+                                                <img _ngcontent-ofb-c90="" src="/static/digital-workshop/assets/icons/free-course.svg" role="presentation" alt="" class="detail-about__detail-icon">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__detail-copy">Sin coste</span></span></div></div>
+                                                <div _ngcontent-ofb-c90="" class="detail-about__features ng-star-inserted">
+                                                <span _ngcontent-ofb-c90="" class="detail-about__features-title">Características del curso</span><div _ngcontent-ofb-c90="">
+                                            <ul>
+                                                <li>Tutoriales en vídeo </li>
+                                                <li>Consejos fáciles de aplicar</li>
+                                                <li>Evaluaciones al finalizar cada tema</li>
+                                                <li>Acceso ilimitado</li>
+                                            </ul>
+                                            </div></div><!----><div _ngcontent-ofb-c90="" class="detail-about__info ng-star-inserted">
+                                            <h2 _ngcontent-ofb-c90="" class="detail-about__info-title">Acerca de este curso</h2>
+                                            <p _ngcontent-ofb-c90="" class="detail-about__info-description ng-star-inserted">
+                                            Si tuvieramos que resumir el propósito de la programación en una frase, ésta debería ser:
+
+que el computador haga el trabajo por nosotros.
+Los computadores son buenos para hacer tareas rutinarias. Idealmente, cualquier problema tedioso y repetitivo debería ser resuelto por un computador, y los seres humanos sólo deberíamos encargarnos de los problemas realmente interesantes: los que requieren creatividad, pensamiento crítico y subjetividad.
+
+La programación es el proceso de transformar un método para resolver problemas en uno que pueda ser entendido por el computador.
+                                            
+                                            
+                                            
+                                            </p>
+                                            <!----><!----></div><!----><!----></div></div></section>
+
+			
+				                        </div>
+			                        </div>
+		                        </div>
+                         </dialog>
+	                    <script src="js/scriptmodal.js"></script>
+
                     </div>
                 </div>
                 <div class="col-lg-8 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">

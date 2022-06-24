@@ -43,7 +43,9 @@ $host = "localhost";
 $connection = mysqli_connect($host, $user, $pass);
 
 //hacemos llamado al imput de formuario
-$idAlumno = "1234";
+//$idAlumno = "1234";
+
+  
 $nombre = $_POST["nombre"];
 $apellido_paterno = $_POST["apellido_paterno"];
 $apellido_materno = $_POST["apellido_materno"];
@@ -52,6 +54,12 @@ $correo = $_POST["correo"];
 $usuario = $_POST["usuario"];
 //$alumno = $_POST["alumno"];
 $contrasenia = $_POST["contrasenia"];
+$Ccontrasenia = $_POST["Ccontrasenia"];
+
+if(substr_compare($contrasenia ,$Ccontrasenia , 0, strlen($contrasenia),true)!=0){
+  echo'<a href="../html/RegistroAlumno.php">  contraseñas distintas  ', $contrasenia,'</a>';
+  return 'Contrasenñas distintas';
+}
 
 //verificamos la conexion a base datos
 if(!$connection) 
@@ -68,7 +76,7 @@ if(!$connection)
         $db = mysqli_select_db($connection,$datab);
 		
 		
-       	$consulta1 = "SELECT * FROM sesion";
+       	$consulta1 = "SELECT * FROM alumno";
         	
 		$result1 = 	mysqli_query($connection,$consulta1);
 
@@ -78,7 +86,7 @@ if(!$connection)
     		if(substr_compare($colum['usuario'], $usuario, 0, strlen($nombre))==0){				
 				echo'<h1>Nombre de usuario repetido </h1>';
 				echo'<br>';
-				echo'<a href="index.html"> Volver Atrás</a>';
+				echo'<a href="Programacion-Web/proyecto/html/RegistroAlumno.php"> Volver Atrás</a>';
 				return 'Nombre de usuario repetido';
 			}    	
 			
@@ -93,21 +101,51 @@ if(!$connection)
 
         //insertamos datos de registro al mysql xamp, indicando nombre de la tabla y sus atributos
        
-		$instruccion_SQL = "INSERT INTO alumno (idAlumno, nombre, apellido_paterno, apellido_materno, fehca_nacimiento,correo)
-                             VALUES ($idAlumno, $nombre, $apellido_paterno, $apellido_materno, $fehca_nacimiento,$correo);";                                                       
+		$instruccion_SQL = "INSERT INTO alumno VALUES ('$usuario', '$nombre', '$apellido_paterno', '$apellido_materno', '$fehca_nacimiento','$correo', '$contrasenia')";                                                       
         $resultado = mysqli_query($connection,$instruccion_SQL); 		
-
-		$instruccion_SQL = "INSERT INTO sesion (usuario,alumno,contrasenia)
-                            VALUES ($usuario,$idAlumno,$contrasenia);";
-		$resultado = mysqli_query($connection,$instruccion_SQL);
-
-
         //$consulta = "SELECT * FROM tabla where id ='2'"; si queremos que nos muestre solo un registro en especifivo de ID   
 
-mysqli_close( $connection );
+
 
    //echo "Fuera " ;
-   echo'<a href="index.html"> Volver Atrás</a>';
+   echo'<a href="index.php"> Registro exitoso</a>';
+
+   $sql="SELECT * FROM alumno";
+
+   $resultado=mysqli_query($connection,$sql);
 
 
 ?>
+<table border="1">
+  <thead >
+    <tr>
+      <th scope="col">#id</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+      <th scope="col">localidad</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Descripcion</th>
+    </tr>
+  </thead>
+  <tbody>
+  <?php
+// Ejecucion del bucle Foreach con MySQL
+foreach($resultado as $k) {
+
+
+?>
+<tr>
+      
+      <td><?php echo $k["usuario"]; ?></td>
+      <td><?php echo $k["nombre"]; ?></td>
+      <td><?php echo $k["apellido_paterno"]; ?></td>
+      <td><?php echo $k["localidad"]; ?></td>
+      <td><?php echo $k["marca"]; ?></td>
+      <td><?php echo $k["descripcion"]; ?></td>
+    </tr>
+    
+<?php
+mysqli_close( $connection );
+}
+?>
+
